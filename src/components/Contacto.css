@@ -1,0 +1,28 @@
+.contact-header{
+    text-align: left;
+    align-items: center;
+}
+
+.logo-contacto img {
+  width: 1500px; /* ajustá este valor si querés más chico */
+  height: auto;
+}
+
+.logo-contacto {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    gap: 10px; /* Espacio entre imagen y texto */
+    width: 600px;
+    height: 400px;
+}
+
+.logo p {
+  font-size: 18px;
+  color: black;
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+.contact-header {
+   padding-top: 150px !important;
+   padding-bottom: 160px !important;
+ }
