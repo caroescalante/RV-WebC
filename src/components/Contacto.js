@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from "react-bootstrap";
 import './Contacto.css';
-import logo from '../Assets/Logo.png'
 import Rv from '../Assets/Rv.png'
 
 
@@ -13,7 +12,6 @@ const Contacto = () => {
             <Container className="home-content-2">
                 <Row className="contact-header">
                     <Col>
-                        {/* <img src={logo} className='logo-contacto' alt='logo-contacto'/> */}
                         <img src={Rv} className='logo-contacto' alt='logo-contacto'/>
                     </Col>
 
